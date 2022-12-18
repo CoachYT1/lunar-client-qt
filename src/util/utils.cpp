@@ -101,7 +101,7 @@ QStringList Utils::getExternalFiles(const QStringList& files, const QString& ver
             if (!filename.contains(versionFile))
                 continue;
 
-        if (modLoader == "Fabric" && (filename.startsWith(QString("Sodium_v")) || filename.startsWith(QString("Indium_v")) || filename.startsWith(QString("Iris_v"))))
+        if (modLoader == "Fabric" && (filename.startsWith(QString("Sodium_v")) || filename.startsWith(QString("Indium_v")) || filename.startsWith(QString("Phosphor_v")) || filename.startsWith(QString("Iris_v"))))
             externalFiles << filename;
 
         if (modLoader == "Forge")
